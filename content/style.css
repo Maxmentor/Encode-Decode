@@ -1,0 +1,123 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.container {
+    display:flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 60px;
+    box-shadow: 3px 2px 3px 1px grey;
+}
+
+.links {
+    padding-top: .7rem;
+}
+
+.brand {
+    padding-left: .3rem;
+    padding-top: 1rem;
+}
+
+.brand a {
+    text-decoration: none;
+   
+}
+.links a {
+    margin-right: 2rem;
+    border: 0px;
+}
+
+.links a:focus {
+    border: 0px;
+  
+}
+
+.input {
+    width: 95%;
+    text-align: center;
+    padding-top: 3.5rem;
+}
+
+.input input {
+    width: 70%;
+    height: 47px;
+    padding-left: 1rem;
+}
+
+.input input {
+    width: 70%;
+    height: 47px;
+    padding-left: 1rem;
+}
+
+.input a {
+    border-radius: 4px;
+    width: 30%;
+    height: 50px;
+    padding-top: .7rem;
+}
+
+.result {
+    width: 100%;
+    text-align: center;
+    padding-top: 3.5rem;
+    margin-bottom: 10rem;
+}
+
+.result textarea {
+    width: 80%;
+    height: 120px;
+    top:0%;
+    padding-left: 1rem;
+    margin-top:1rem;
+   
+}
+
+.result #copy {
+    border-radius: 0px;
+}
+
+.footer {
+    padding-top: 1.2rem;
+    padding-bottom: .6rem;
+    background-color: rgb(28, 28, 28);
+    height: 70px;
+    color: white;
+    text-align: center;
+    bottom: 0%;
+    position: fixed;
+    width: 100%;
+
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+   
+}
+
+
+@media screen and (max-width:536px) {
+   .container{
+    height: 120px;
+display: block;
+   }
+.container .links a{
+    width: 40px;
+}
+
+.input input {
+    width: 95%;
+    margin-left: 1rem;
+    height: 47px;
+    padding-left: 1rem;
+}
+
+.result textarea {
+    width: 95%;
+}
+
+   
+  }
